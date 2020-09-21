@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Mi primer proyecto html",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": { "start": "lite-server"},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Maylor-ITNL/16100237-Pasteleria.git"
@@ -15,5 +13,14 @@
   "bugs": {
     "url": "https://github.com/Maylor-ITNL/16100237-Pasteleria/issues"
   },
-  "homepage": "https://github.com/Maylor-ITNL/16100237-Pasteleria#readme"
+  "homepage": "https://github.com/Maylor-ITNL/16100237-Pasteleria#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "keywords": []
 }
