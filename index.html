@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pasteleria Merlin</title>
+    <title>Pasteleria EL Mago Merlin</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/principal.css">
+
 </head>
 <body>
     <div class="jumbotron">
@@ -16,45 +18,70 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-4 col-sm-6">
-            <h2>Pasteles</h2>
-            <p>Deliciosos y puede pedirlo a la medida</p>                
-          </div>
-          <div class="col-md-6 col-lg-4 col-sm-6">
-            <h2>Quequitos</h2>
-            <p>Muy ricos y muy baratos</p>               
-          </div>
-          <div class="col-md-6 col-lg-4 col-sm-6">
-            <h2>Tartas</h2>
-            <p>Las mejores tartas de la ciudad</p>              
-          </div>
+            <div class="col-sm-4">
+              <h2>Pasteles</h2>
+              <p>Deliciosos y puede pedirlo a la medida</p>               
+              </div>
+              <div class="col-sm-4">
+                <h2>Quequitos</h2>
+            <p>Muy ricos y muy baratos</p>                 
+              </div>
+              <div class="col-sm-4">
+                <h2>Tartas</h2>
+            <p>Las mejores tartas de la ciudad</p>               
+              </div>
         </div>
-        <div class="row">
-          <div class="col-sm-4">
+        <div class="d-flex flex-wrap">
+          <div class="d-flex flex-column card-design">
+            <div>
+              <h2>Como funciona</h2>
+            <p>Descripcion de funcionamiento</p>  
+            </div>
+            <div><button class = "btn btn-primary btn-ver">Ver detalles</button></div>              
+          </div>
+          <div class="d-flex flex-column card-design">
             <div>
               <h2>Como se preparan</h2>
-            <p>Proceso de preparacion</p>  
+              <p>Proceso de preparacion</p>  
             </div>
             <div><button class = "btn btn-primary btn-ver">Ver detalles</button></div>              
           </div>
-          <div class="col-sm-4">
+          <div class="d-flex flex-column card-design">
             <div>
-              <h2>Estilos decorativos que manejamos</h2>
+              <h2>Estilos decorativos</h2>
             <p>Da click para ver más</p>  
-            </div>
-            <div><button class = "btn btn-primary btn-ver">Ver detalles</button></div>              
-          </div>
-          <div class="col-sm-4">
-            <div>
-              <h2>Horarios</h2>
-            <p>Ver más</p>  
             </div>
             <div><button class = "btn btn-primary btn-ver">Ver detalles</button></div>              
           </div>
         </div>
       </div>
+
+      <footer>
+        <div class="row">
+            <div class="col-sm-4 " style="font-size:larger;">
+                <a href="http://www.facebook.com">Facebook</a>
+                <a href="http://www.instagram.com">Instagram</a>
+                <a href="http://www.twtter.com">Twtter</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <h5>Nuestra Ubicación</h5>
+                    <div>Calle 1 de Mayo </div>
+                    <div>Col. Infonavit </div>
+                    <div>Nuevo Laredo, Tamaulipas, Mexico</div>
+                </address>
+            </div>
+            <div class="col-sm-4   align-items-end" style="font-size:larger;">
+                <a href="#">Contactanos</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Menú</a>
+                <a href="#">Galeria decorativa</a>
+            </div>
+        </div>
+</footer>
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/popper.js/dist/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>
